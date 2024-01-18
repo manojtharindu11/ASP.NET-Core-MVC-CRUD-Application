@@ -2,7 +2,7 @@
 {
     public class Category
     {
-        public int categoryId { get; set; }
+        public int CategoryId { get; set; }
 
         public string Name { get; set; } = string.Empty;
 

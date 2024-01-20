@@ -27,5 +27,27 @@ namespace Crudapplication.Controllers
             }
             return View(category);
         }
+
+        public IActionResult Add()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Add(Category category)
+        {
+            if(ModelState.IsValid)
+            {
+                CategoriesRepository.AddCategory(category);
+                return RedirectToAction(nameof(Index));
+            }
+            return View(category);
+        }
+
+        public IActionResult Delete(int id)
+        {
+            CategoriesRepository.DeleteCategory(id);
+            return RedirectToAction(nameof(Index));
+        }
     }
 }

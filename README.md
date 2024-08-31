@@ -4,4 +4,4 @@ This repository contains a CRUD (Create, Read, Update, Delete) application built
 
 ## Resources
 
-- [YouTube Video](https://youtu.be/BzlPrVB_DwA?si=pssFd9CDJw9NXz1r): A helpful guide that covers building this CRUD application using ASP.NET Core MVC.
+[YouTube](https://youtu.be/BzlPrVB_DwA?si=pssFd9CDJw9NXz1r) - A helpful guide that covers building this CRUD application using ASP.NET Core MVC.
